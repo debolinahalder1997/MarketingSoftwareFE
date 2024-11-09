@@ -1,0 +1,34 @@
+:root {
+  --sidebar: 75px;
+}
+#SidePage {
+  width: "100%";
+}
+
+@media only Screen and (768px<= width <=992px) {
+  #SidePage {
+    width: "100%";
+    display: block;
+  }
+  #sideimg {
+    width: "70%";
+    display: block;
+  }
+}
+@media only Screen and (576px<= width <=767px) {
+  #SidePage {
+    display: none;
+  }
+  #sideimg {
+    display: none;
+  }
+}
+
+@media only Screen and (width <576px) {
+  #SidePage {
+     display: none;
+  }
+  #SidePage img {
+     display: none;
+  }
+}

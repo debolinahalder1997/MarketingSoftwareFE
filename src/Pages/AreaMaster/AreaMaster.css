@@ -1,0 +1,28 @@
+#area-img-width {
+  width: 70%;
+  display: block;
+}
+.row-body {
+  height: 100%;
+}
+@media screen and(max-width: 767px) {
+  .row-body {
+  height: max-content;
+}
+}
+@media screen and (max-width: 576px) and (max-width: 767px) {
+  #area-img-width {
+    width: 0px;
+    display: none;
+  }
+}
+
+@media Screen and (max-width: 576px) {
+  #area-img-width {
+    width: 0px;
+  }
+}
+.area-row {
+  padding: 0px !important;
+  margin: 0px !important;
+}

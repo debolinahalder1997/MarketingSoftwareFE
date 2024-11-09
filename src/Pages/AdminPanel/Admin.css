@@ -1,0 +1,12 @@
+.Apanel {
+  background-color: rgb(253, 253, 253);
+  padding: 5px 40px 5px 0;
+}
+.grey-icon{
+  color: grey;
+  font-size: large;
+}
+.form-control{
+padding: 5px 5px;
+font-size: smaller;
+}
